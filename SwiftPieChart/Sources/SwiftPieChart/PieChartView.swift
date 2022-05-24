@@ -144,14 +144,14 @@ struct PieChartRows: View {
                     Button {
                         //action
                     } label: {
-                        Image("arrow")
+                        Image(systemName:"arrow.forward")
                             .frame(width: 34, height: 34, alignment: .center)
                             .background(accentLightColor).clipShape(Circle())
                     }
 
                 }
             }
-        }.frame(width: 400, height: .infinity, alignment: .leading)
+        }.padding(.leading, 40).padding(.trailing, 40)
     }
 }
 

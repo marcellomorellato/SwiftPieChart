@@ -16,6 +16,7 @@
 		ADBAF1D6283D4BF900036EE1 /* SwiftPieChartDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAF1D5283D4BF900036EE1 /* SwiftPieChartDemoTests.swift */; };
 		ADBAF1E0283D4BF900036EE1 /* SwiftPieChartDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAF1DF283D4BF900036EE1 /* SwiftPieChartDemoUITests.swift */; };
 		ADBAF1E2283D4BF900036EE1 /* SwiftPieChartDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBAF1E1283D4BF900036EE1 /* SwiftPieChartDemoUITestsLaunchTests.swift */; };
+		ADBAF1F3283D505600036EE1 /* SwiftPieChart in Frameworks */ = {isa = PBXBuildFile; productRef = ADBAF1F2283D505600036EE1 /* SwiftPieChart */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBAF1F3283D505600036EE1 /* SwiftPieChart in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,7 @@
 				ADBAF1D4283D4BF900036EE1 /* SwiftPieChartDemoTests */,
 				ADBAF1DE283D4BF900036EE1 /* SwiftPieChartDemoUITests */,
 				ADBAF1BC283D4BF700036EE1 /* Products */,
+				ADBAF1F1283D505600036EE1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +130,13 @@
 			path = SwiftPieChartDemoUITests;
 			sourceTree = "<group>";
 		};
+		ADBAF1F1283D505600036EE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +153,9 @@
 			dependencies = (
 			);
 			name = SwiftPieChartDemo;
+			packageProductDependencies = (
+				ADBAF1F2283D505600036EE1 /* SwiftPieChart */,
+			);
 			productName = SwiftPieChartDemo;
 			productReference = ADBAF1BB283D4BF700036EE1 /* SwiftPieChartDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -604,6 +617,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADBAF1F2283D505600036EE1 /* SwiftPieChart */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SwiftPieChart;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADBAF1B3283D4BF700036EE1 /* Project object */;
 }
